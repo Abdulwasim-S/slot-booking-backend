@@ -10,7 +10,6 @@ router.get("/", WelcomeComp);
 
 // Bookings
 router.get("/booking", BookingListComp);
-// router.get("/user", UsersComp);
 router.post("/booking", BookingComp);
 
 export default router;

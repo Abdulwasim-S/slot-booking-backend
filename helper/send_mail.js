@@ -30,6 +30,7 @@ const send_mail = async (name, email, number, date, time, payment_id) => {
         <h5>Date = ${date}</h5>
         <h5>Time = ${convertedTime[`${time}`]}</h5>
         <h5>Payment_ID = ${payment_id}</h5>
+        <span><i>*Note : Use this Mail as Token*</i></span>
       </div>`,
   };
 
