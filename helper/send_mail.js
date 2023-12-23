@@ -18,7 +18,7 @@ const send_mail = async (name, email, number, date, time, payment_id) => {
   let message = {
     from: "abdulwasimsguvi@gmail.com",
     to: email,
-    subject: "Password reset mail",
+    subject: "Turf Slot Token",
     text: `Slot Booked! Name:${name},Email:${email},Number:+91-${number},Time:${
       convertedTime[`${time}`]
     },date:${date},Payment_ID:${payment_id}`,
